@@ -5,7 +5,138 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zainab's Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about {
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-container img {
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.projects {
+  padding: 40px 20px;
+  background-color: #eef;
+}
+
+.video-project {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.image-project {
+    max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+form button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+#about{
+    text-align: center;
+    margin:0 auto;
+    padding:40px 20px ;
+    margin-bottom :20px;
+    }
+#about p {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family :fantasy;
+}
+h2 {
+    font-size:40px ;
+    text-align: center;
+    
+    position :relative;
+    color: black;
+    margin-bottom: 30px;
+}
+</style>
 </head>
 <body>
   <header>
