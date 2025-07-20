@@ -1,1 +1,77 @@
 # My-portfolio-webpage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zainab's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Zainab Ibrahim Lawan.</h2>
+    <br>
+    <p>Artist 🎨</p>
+  </section>
+<div class="about-container">
+      
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="xeexee.jpg" alt="Zainab's photo" style="border-radius: 50%;width:150px; height:200px"/>
+      <p>Hello! I'm Zainab Ibrahim Lawan, passionate about web development and design. I love learning and creating beautiful websites that solve real problems. When I'm not coding, I enjoy reading and watching creative videos.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    
+    <div class="video-project">
+      <video controls width="50%">
+        <source src="drawing2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+      
+        <div class="image-project">
+            <br>
+        <h2>Image</h2>
+        <img style="width:250px; height:300px;" src="drawing1.jpg" alt="waterfall drawing">
+    </div>
+   
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button style="margin-bottom:30px;"type="submit" class="btn">Send Message</button>
+    </form>
+    <br>
+    <p id="formStatus"></p>
+    <a href="https://github.com/yourusername">
+      Visit My GitHub</a>
+      <br><br>
+      <iframe  style="border:0; margin-top:20px;
+    margin-bottom:10px; width:250; height:200; loading:lazy;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.927123624878!2d8.527983474259946!3d9.057951290999259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1053731bd52d113f%3A0x6f03d313e57b7a92!2sYusuf%20Maitama%20Sule%20University!5e0!3m2!1sen!2sng!4v1681039080466!5m2!1sen!2sng"  referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zainab Lawan</p>
+  </footer>
+
+</body>
+</html>
